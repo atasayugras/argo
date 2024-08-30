@@ -1,0 +1,12 @@
+<!-- Step 3 Add Header -->
+<%- include("../partials/header.ejs") %>
+<div class="container">
+  <!-- Display the h1 content -->
+  <h1><%= h1 %></h1>
+  <!-- Form to generate a new band name -->
+  <form action="/submit" method="POST">
+    <input type="submit" value="Argo oluştur" />
+  </form>
+</div>
+<!-- Step 3 Add Footer -->
+<%- include("../partials/footer.ejs") %>

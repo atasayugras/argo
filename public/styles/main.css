@@ -1,0 +1,44 @@
+body {
+  background: #222;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  color: hotpink;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  max-width: 416.83px;
+}
+
+input {
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  font-size: 1rem;
+  background: #888;
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  bottom: 0;
+  text-align: center;
+}
+
+.container {
+  height: 100vh; /* Full viewport height */
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally */
+  flex-direction: column;
+  text-align: center;
+}
